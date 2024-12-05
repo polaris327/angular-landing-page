@@ -1,0 +1,22 @@
+footer {
+  background: url("/assets/images/footer-wave.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 350px;
+  h6 {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 50px;
+    color: #f5f6fa;
+    padding: 20px 0;
+    @media (max-width: 425px) {
+      font-size: 18px;
+      max-width: 135px;
+    }
+  }
+}
